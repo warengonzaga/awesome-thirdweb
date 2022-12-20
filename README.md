@@ -29,7 +29,7 @@ Release NFTs and Tokens based on preset Claim Conditions.
 
 ## Tools
 
-- **[The thirdweb Art Engine]([https://](https://github.com/warengonzaga/thirdweb-art-engine))** by [warengonzaga](https://github.com/warengonzaga) - The forked version of HashLips Art Engine with better features and compatibility with thirdweb.
+- **[The thirdweb Art Engine](https://github.com/warengonzaga/thirdweb-art-engine)** by [warengonzaga](https://github.com/warengonzaga) - The forked version of HashLips Art Engine with better features and compatibility with thirdweb.
 - **[Hashlips Art Engine](https://github.com/HashLips/hashlips_art_engine)** by [hashlips](https://github.com/hashlips) - Create generative art by using the canvas api and node js.
 
 ## Resources
