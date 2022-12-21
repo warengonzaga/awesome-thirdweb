@@ -32,7 +32,7 @@
 ## ⭐ Showcase
 
 - [The Nutleys](https://opensea.io/collection/the-nutleys) - A community of 9,999 peanuts - hand-drawn and algorithmically roasted on the Ethereum blockchain.
-- _Add yours here please..._ 🥺
+- _Have a project built on thirdweb? Submit now!_ 🥺
 
 ## 📜 Smart Contracts
 
@@ -60,16 +60,19 @@
 - [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contracts lets you create recurring subscriptions, tickets, certifications.
 - [Rental NFTs](https://thirdweb.com/doubledev.eth/ERC4907) - ERC-4907 facilitates the efficient implementation of rentable NFTs.
 - [ERC-721 Community Stream](https://thirdweb.com/flairsdk.eth/ERC721CommunityStream) - Allows you to create a token stream to equally distribute any tokens (Native, ERC20, etc) to holders of a specific ERC721 NFT collection.
+- _Have a community contract release? Submit now!_
 
 ## 🧰 Tools
 
 - [The thirdweb Art Engine](https://github.com/warengonzaga/thirdweb-art-engine) - The forked version of HashLips Art Engine with better features and compatibility with thirdweb.
 - [Hashlips Art Engine](https://github.com/HashLips/hashlips_art_engine) - Create generative art by using the canvas api and node js.
+- _Have a community tool for thirdweb? Submit now!_
 
 ## 📚 Resources
 
 - [TW Demo Asssets](https://github.com/saminacodes/tw-demo-assets) - Different assets use for demo projects at thirdweb.
 - [NFT Dummy Assets](https://github.com/warengonzaga/nft-dummy-assets) - Making test NFT deploment easier by providing dummy NFT arts with metadata. 100% compatible with thirdweb platform.
+- _Have a community resources for thirdweb? Submit now!_
 
 ## 🎓 Tutorials
 
@@ -77,6 +80,7 @@
 
 - Build an RPG game on Solana. [[Link](https://metamake.hashnode.dev/build-an-rpg-game-on-solana#heading-generate-the-pngs)]
 - How to use RainbowKit with Thirdweb. [[Link](https://blog.avneesh.tech/how-to-use-rainbowkit-with-thirdweb)]
+- _Have a community tutorial blog for thirdweb? Submit now!_
 
 ### Videos
 
@@ -85,6 +89,7 @@
 - Create token gated website using existing token. [[Link](https://www.youtube.com/watch?v=gFy7VuLq8II)]
 - How to create an NFT collection. [[Link](https://www.youtube.com/watch?v=DSffICxyj3A)]
 - How to create an ERC 20 token + mint NFT with custom ERC-20. [[Link](https://www.youtube.com/watch?v=FoIp1KSyh_w)]
+- _Have a community video tutorial for thirdweb? Submit now!_
 
 ---
 
