@@ -14,9 +14,12 @@
 - [⭐ Showcase](#-showcase)
 - [📜 Smart Contracts](#-smart-contracts)
   - [Pre-Built Contracts (Official)](#pre-built-contracts-official)
+  - [Community Contract Releases](#community-contract-releases)
 - [🧰 Tools](#-tools)
 - [📚 Resources](#-resources)
 - [🎓 Tutorials](#-tutorials)
+  - [Blogs](#blogs)
+  - [Videos](#videos)
 
 ## ✅ Official
 
@@ -38,7 +41,25 @@
 - [NFT Drop](https://thirdweb.com/thirdweb.eth/DropERC721) - The NFT Drop contract is ideal when you want to release a collection of unique NFTs using the ERC721A Standard.
 - [Edition Drop](https://thirdweb.com/thirdweb.eth/DropERC1155) - The Edition Drop contract is best used when you want to release many NFTs based on the same asset and uses the ERC1155 Standard, also known as "Semi-Fungible Tokens".
 - [Signature Drop](https://thirdweb.com/thirdweb.eth/SignatureDrop) - The Signature Drop contract uses the ERC721A standard to release a collection of unique one-of-one NFTs.
-- [Token Drop](https://thirdweb.com/thirdweb.eth/DropERC20) - The Token Drop contract is a way of releasing your ERC20 tokens for a set price. It allows you to define the conditions for when and how your users can claim your tokens; including allowlists, release dates, and claim limits.
+- [Token Drop](https://thirdweb.com/thirdweb.eth/DropERC20) - The Token Drop contract is a way of releasing your ERC20 tokens for a set price.
+- [NFT Collection](https://thirdweb.com/thirdweb.eth/TokenERC721) - The NFT Collection contract is suitable for when you want to have a collection of unique NFTs, but not "drop" or "release" them for your community to claim.
+- [Edition](https://thirdweb.com/thirdweb.eth/TokenERC1155) - The Edition contract is best used when you want to release many NFTs based on the same asset, but you don't want to "drop" or "release" them for your community to claim.
+- [Token](https://thirdweb.com/thirdweb.eth/TokenERC20) - The Token contract is suited for creating a digital currency and is compliant with the ERC20 standard.
+- [Marketplace](https://thirdweb.com/thirdweb.eth/Marketplace) - A Marketplace is a contract where you can buy and sell NFTs, such as OpenSea or Rarible.
+- [Multiwrap](https://thirdweb.com/thirdweb.eth/Multiwrap) - The Multiwrap contract lets you wrap ERC20, ERC721 and ERC1155 tokens into a new wrapped ERC721 NFT.
+- [Pack](https://thirdweb.com/thirdweb.eth/Pack) - The pack contract lets you bundle ERC20, ERC721 and, ERC1155 tokens together into ERC1155 NFTs that act as randomized loot boxes.
+- [Vote](https://thirdweb.com/thirdweb.eth/VoteERC20) - The Vote contract is designed for groups such as DAOs to vote on proposals.
+- [Airdrop ERC-20](https://thirdweb.com/thirdweb.eth/AirdropERC20) - Airdrop ERC20 tokens or the chain's native token (e.g. ether for Ethereum mainnet) to a list of recipients.
+- [Airdrop ERC-721](https://thirdweb.com/thirdweb.eth/AirdropERC721) - Airdrop ERC721 NFTs to a list of recipients.
+- [Airdrop ERC-1155](https://thirdweb.com/thirdweb.eth/AirdropERC1155) - Airdrop ERC1155 NFTs to a list of recipients.
+- [NFT Stake](https://thirdweb.com/thirdweb.eth/NFTStake) (Beta) - This contract allows users to stake their ERC-721 NFTs and get ERC-20 tokens as staking rewards.
+
+### Community Contract Releases
+
+- [Dynamic Free Mint](https://thirdweb.com/nach.eth/DynamicFreeMint) - With this contract, you can limit how many NFTs each wallet can claim for free.
+- [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contracts lets you create recurring subscriptions, tickets, certifications.
+- [Rental NFTs](https://thirdweb.com/doubledev.eth/ERC4907) - ERC-4907 facilitates the efficient implementation of rentable NFTs.
+- [ERC-721 Community Stream](https://thirdweb.com/flairsdk.eth/ERC721CommunityStream) - Allows you to create a token stream to equally distribute any tokens (Native, ERC20, etc) to holders of a specific ERC721 NFT collection.
 
 ## 🧰 Tools
 
@@ -52,7 +73,18 @@
 
 ## 🎓 Tutorials
 
-- Build an RPG game on Solana - [link](https://metamake.hashnode.dev/build-an-rpg-game-on-solana#heading-generate-the-pngs).
+### Blogs
+
+- Build an RPG game on Solana. [[Link](https://metamake.hashnode.dev/build-an-rpg-game-on-solana#heading-generate-the-pngs)]
+- How to use RainbowKit with Thirdweb. [[Link](https://blog.avneesh.tech/how-to-use-rainbowkit-with-thirdweb)]
+
+### Videos
+
+- HashLips playlist for thirdweb. [[Link](https://www.youtube.com/watch?v=OlavWoKV1Mk&list=PLvfQp12V0hS3tHI5-4olIYqH6LM8YWL63)]
+- Creating a gasless NFT Drop. [[Link](https://www.youtube.com/watch?v=FQKnUdxKLg4)]
+- Create token gated website using existing token. [[Link](https://www.youtube.com/watch?v=gFy7VuLq8II)]
+- How to create an NFT collection. [[Link](https://www.youtube.com/watch?v=DSffICxyj3A)]
+- How to create an ERC 20 token + mint NFT with custom ERC-20. [[Link](https://www.youtube.com/watch?v=FoIp1KSyh_w)]
 
 ---
 
