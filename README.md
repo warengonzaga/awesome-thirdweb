@@ -32,6 +32,7 @@
 ## ⭐ Showcase
 
 - [The Nutleys](https://opensea.io/collection/the-nutleys) - A community of 9,999 peanuts - hand-drawn and algorithmically roasted on the Ethereum blockchain.
+- [Bridgette](https://bridgette.one/) - One Bridge To Rule Them All. Taking all your favorite bridges and putting them under a cohesive interface that focuses on YOU.
 - _Have a project built on thirdweb? Submit now!_ 🥺
 
 ## 📜 Smart Contracts
