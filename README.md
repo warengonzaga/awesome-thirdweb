@@ -31,7 +31,8 @@
 
 ## ⭐ Showcase
 
-- [The Nutleys](https://opensea.io/collection/the-nutleys) - A community of 9,999 peanuts - hand-drawn and algorithmically roasted on the Ethereum blockchain.
+- [The Nutleys](https://opensea.io/collection/the-nutleys) - Community of 9,999 peanuts - hand-drawn and algorithmically roasted on the Ethereum blockchain.
+- [Serious Platypus Verse](https://opensea.io/collection/serious-platypus-verse) - We are supporting environmental advocates through this 105 unique genesis collection of serious platypus.
 - [Bridgette](https://bridgette.one/) - One Bridge To Rule Them All. Taking all your favorite bridges and putting them under a cohesive interface that focuses on YOU.
 - _Have a project built on thirdweb? Submit now!_ 🥺
 
