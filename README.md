@@ -56,6 +56,8 @@
 - [Airdrop ERC-721](https://thirdweb.com/thirdweb.eth/AirdropERC721) - Airdrop ERC721 NFTs to a list of recipients.
 - [Airdrop ERC-1155](https://thirdweb.com/thirdweb.eth/AirdropERC1155) - Airdrop ERC1155 NFTs to a list of recipients.
 - [NFT Stake](https://thirdweb.com/thirdweb.eth/NFTStake) (Beta) - This contract allows users to stake their ERC-721 NFTs and get ERC-20 tokens as staking rewards.
+- [NFT Drop](https://thirdweb.com/thirdweb.eth/DropERC721_OSRoyaltyFilter) ([OpenSea Creator Fees Supported](https://twitter.com/opensea/status/1589058770646491136?s=20&t=_A2sD98KwU3ENimherS19Q)) - thirdweb's NFT Drop contract that uses OpenSea's operator filter for creator fees support.
+- [Edition Drop](https://thirdweb.com/thirdweb.eth/DropERC1155_OSRoyaltyFilter) ([OpenSea Creator Fees Supported](https://twitter.com/opensea/status/1589058770646491136?s=20&t=_A2sD98KwU3ENimherS19Q)) - thirdweb's Edition Drop contract that uses OpenSea's operator filter for creator fees support.
 
 ### Community Contract Releases
 
