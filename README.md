@@ -35,6 +35,7 @@
 - [Serious Platypus Verse](https://opensea.io/collection/serious-platypus-verse) - We are supporting environmental advocates through this 105 unique genesis collection of serious platypus.
 - [Bridgette](https://bridgette.one) - One Bridge To Rule Them All. Taking all your favorite bridges and putting them under a cohesive interface that focuses on YOU.
 - [Crypto Dog Society](https://cryptodogsociety.com) - The Crypto Dog Society is a private collection of 7777 unique 3D art pieces design by William Gaspar and Nathan Torelli.
+- [CareerUp Job Website](https://careerdev.vercel.app/)- Careerup is a web3 based job apllication dapp, where user get to list a job, or apply for a specifiic job, while employer can also host video interviews for the selected candidate on the dapp.
 - _Have a project built on thirdweb? Submit now!_ 🥺
 
 ## 📜 Smart Contracts
@@ -65,6 +66,7 @@
 - [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contracts lets you create recurring subscriptions, tickets, certifications.
 - [Rental NFTs](https://thirdweb.com/doubledev.eth/ERC4907) - ERC-4907 facilitates the efficient implementation of rentable NFTs.
 - [ERC-721 Community Stream](https://thirdweb.com/flairsdk.eth/ERC721CommunityStream) - Allows you to create a token stream to equally distribute any tokens (Native, ERC20, etc) to holders of a specific ERC721 NFT collection.
+- [Job Application](https://thirdweb.com/goerli/0xAa3C537CDeeFc8Ea9e86b7C5dAecF11fa4cDA01E) - job application smart contract allow users to list ajob, apply for a job.
 - _Have a community contract release? Submit now!_
 
 ## 🧰 Tools
