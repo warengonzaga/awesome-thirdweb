@@ -66,7 +66,7 @@
 - [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contracts lets you create recurring subscriptions, tickets, certifications.
 - [Rental NFTs](https://thirdweb.com/doubledev.eth/ERC4907) - ERC-4907 facilitates the efficient implementation of rentable NFTs.
 - [ERC-721 Community Stream](https://thirdweb.com/flairsdk.eth/ERC721CommunityStream) - Allows you to create a token stream to equally distribute any tokens (Native, ERC20, etc) to holders of a specific ERC721 NFT collection.
-- [Job Application](https://thirdweb.com/goerli/0xAa3C537CDeeFc8Ea9e86b7C5dAecF11fa4cDA01E) - job application smart contract allow users to list ajob, apply for a job.
+- [Job Application](https://thirdweb.com/0x013166D598AB78A8ddf8C1bF34Ff9bC7C50D36D2/CareerBuild) - job application smart contract allow users to list ajob, apply for a job.
 - _Have a community contract release? Submit now!_
 
 ## 🧰 Tools
