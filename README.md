@@ -57,8 +57,6 @@
 - [Airdrop ERC-721](https://thirdweb.com/thirdweb.eth/AirdropERC721) - Airdrop ERC721 NFTs to a list of recipients.
 - [Airdrop ERC-1155](https://thirdweb.com/thirdweb.eth/AirdropERC1155) - Airdrop ERC1155 NFTs to a list of recipients.
 - [NFT Stake](https://thirdweb.com/thirdweb.eth/NFTStake) (Beta) - This contract allows users to stake their ERC-721 NFTs and get ERC-20 tokens as staking rewards.
-- [NFT Drop](https://thirdweb.com/thirdweb.eth/DropERC721_OSRoyaltyFilter) ([OpenSea Creator Fees Supported](https://twitter.com/opensea/status/1589058770646491136?s=20&t=_A2sD98KwU3ENimherS19Q)) - thirdweb's NFT Drop contract that uses OpenSea's operator filter for creator fees support.
-- [Edition Drop](https://thirdweb.com/thirdweb.eth/DropERC1155_OSRoyaltyFilter) ([OpenSea Creator Fees Supported](https://twitter.com/opensea/status/1589058770646491136?s=20&t=_A2sD98KwU3ENimherS19Q)) - thirdweb's Edition Drop contract that uses OpenSea's operator filter for creator fees support.
 
 ### Community Contract Releases
 
@@ -73,6 +71,7 @@
 
 - [The thirdweb Art Engine](https://github.com/warengonzaga/thirdweb-art-engine) - The forked version of HashLips Art Engine with better features and compatibility with thirdweb.
 - [Hashlips Art Engine](https://github.com/HashLips/hashlips_art_engine) - Create generative art by using the canvas api and node js.
+- [IPFS Support Extension](https://github.com/warengonzaga/ipfs-support-extension) - Adding standalone IPFS native URL support for chromium based browsers without installing IPFS in your machine.
 - _Have a community tool for thirdweb? Submit now!_
 
 ## 📚 Resources
