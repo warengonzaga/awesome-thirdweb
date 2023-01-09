@@ -36,6 +36,7 @@
 - [Bridgette](https://bridgette.one) - One Bridge To Rule Them All. Taking all your favorite bridges and putting them under a cohesive interface that focuses on YOU.
 - [Crypto Dog Society](https://cryptodogsociety.com) - The Crypto Dog Society is a private collection of 7777 unique 3D art pieces design by William Gaspar and Nathan Torelli.
 - [CareerUp Job Website](https://careerdev.vercel.app/)- Careerup is a web3 based job apllication dapp, where user get to list a job, or apply for a specifiic job, while employer can also host video interviews for the selected candidate on the dapp.
+- [Inmate Tate](https://www.inmatetate.com) - A collection of 12,345 inmate tate nfts, convicted to the blockchain for eternity.
 - _Have a project built on thirdweb? Submit now!_ 🥺
 
 ## 📜 Smart Contracts
