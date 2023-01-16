@@ -1,0 +1,414 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 24px;
+}
+
+.claimedSoFarNumber {
+  color: #ff5edf;
+  font-size: 12px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.quantityBoxText {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.soundBoxText {
+  color: #FFA500;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.soundBoxWelcome {
+  color: #FFA500;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.quantityNumber {
+  color: #ff5edf;
+  font-size: 16px;
+  font-weight: 800;
+
+}
+
+.priceBelowButton {
+  font-size: 10px;
+  color:#ff5edf;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.soldOutText {
+  color: #37d8ff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  animation: fadeInSoldOut 6s;
+}
+
+@keyframes fadeInSoldOut {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.linkBelowButton {
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.dot1 {
+  height: 5px;
+  width: 5px;
+  background-color: #ff5edf;
+  border-radius: 0%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dot2 {
+  height: 5px;
+  width: 5px;
+  background-color: #6bffc0;
+  border-radius: 0%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dot3 {
+  height: 5px;
+  width: 5px;
+  background-color:#fff;
+  border-radius: 0%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dot4 {
+  height: 5px;
+  width: 5px;
+  background-color: #37d8ff;
+  border-radius: 0%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.mintAlertImage{
+  opacity: 0.2;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mintDetectorText{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color:#37d8ff;
+}
+
+.contractAndAppData{
+  color: #6bffc0;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.thirdwebLink{
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.thirdwebLink > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.blinker{
+  color: #ff5edf;
+  font-size: 10px;
+  margin-right: 10px;
+  animation: blink 2.5s infinite;
+}
+
+@keyframes blink{
+  from{opacity: 1;}
+  to{opacity: 0.1;}
+}
+
+.quantityContainer{
+  display: inline-block;
+  margin-top: 10px;
+  
+}
+
+.soundControl {
+  display: inline-block;
+}
+
+
+
+.quantityContainerNoAddress{
+  color: #fff;
+}
+
+.h1 {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 1px;  
+}
+
+.describe {
+  max-width: 900px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.describe > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mainButton {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 35px;
+
+  font-size: 1.2rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(to left, #1c1e21 0%, #1c1e21 101.52%);
+  color: #ff5edf;
+  width: 35px;
+  text-align: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ff5edf;
+  border-width: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: transform 0.2s linear, color 0.2s linear;
+}
+
+.soundButton {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 25px;
+
+  font-size: 8px;
+  background: #e5e5ea;
+  background-image: linear-gradient(to left, #1c1e21 0%, #1c1e21 101.52%);
+  color: #FFA500;
+  width: 25px;
+  text-align: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #FFA500;
+  border-width: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: transform 0.2s linear, color 0.2s linear;
+
+}
+
+.mainButton2 {
+  cursor: pointer;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  line-height: 1.2;
+  font-weight: 600;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 1.4rem;
+  min-width: 3rem;
+  font-size: 1.2rem;
+  background: #e5e5ea;
+  background-image: linear-gradient(to left, #90ebf8 0%, #90ebf8 101.52%);
+  color: #000000;
+  width: 40px;
+  text-align: center;
+  border-radius: 8%;
+  border-style: none;
+  margin-left: 2em;
+  margin-right: 2em;
+
+}
+
+.mainButton:hover {
+  opacity: 0.8;
+  transform: translateY(-3px);
+  color: #fff;
+}
+
+.soundButton:hover {
+  opacity: 0.8;
+  transform: translateY(-3px);
+  color: #1c1e21;
+}
+
+.nftBoxGrid {
+  width: 1200px;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.selectBoxTitle {
+  font-size: 1.5rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.selectBoxDescription {
+  color:#ff5edf;
+  margin-bottom: 20px;
+  max-width: 450px;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.cardImg {
+  height: 42px;
+ margin-top: 10px;
+}
+
+.optionSelectBox {
+  border-radius: 16px;
+  border: 1px solid #fff;
+  width: 48%;
+  min-height: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+/* my alerts version - background color change
+.alerts{
+  background-color: #1c1e21;
+  color: #e5e5ea;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 16px;
+  border: 3px solid #ffcc00;
+  animation: 4s colors infinite alternate; 
+}
+
+@keyframes colors {
+  from {background-color: #1c1e21;}
+  to {background-color: #1a3052;}
+}
+*/
+
+
+
+
+
+@keyframes my-fade-in-out{
+  0% {opacity: 1;}
+  100% {opacity: 0.3;}
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .nftBoxGrid {
+    justify-content: center;
+  }
+  .optionSelectBox {
+    width: 90%;
+    margin-top: 16px;
+  }
+}

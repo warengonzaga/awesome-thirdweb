@@ -1,104 +1,237 @@
-# Awesome thirdweb [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) <!-- omit from toc -->
+## Wotify NFTs Minting DApp - Template code for thirdweb's signature-drop contract
 
-![awesome thirdweb banner](.github/repo-banner.png)
+A fully working DApp/code is provided by the thirdweb.
+You can find the original thirweb's code and repo [here](https://github.com/thirdweb-example/signature-drop)
 
-> A curated list of awesome thirdweb resources, libraries, examples, showcase, and open source projects. 📌✨
+You can find my version of the original repo [here](https://github.com/wotify/sigbature-drop-template-code)
 
-## What is thirdweb? <!-- omit from toc -->
+Btw, the name of my repo should have bin * signature-drop-template-code * and not the * sigbature-drop-template-code * as it stands now at wotify nfts GitHub home, but I probably type too fast for...
 
-[thirdweb](https://thirdweb.com) is a complete web3 development framework. Smart Contracts and SDKs for developers, dashboard and no-code tools for everyone.
+As I said above the fully operational and working DApp is provided by the thirdweb, and I added a little bit more functionality and basic styling. The original code has mint quantity set to 1 for both mint buttons by default so I added the quantity buttons in order to enable more than 1 mint per 1 transaction. You can change in code in the index.tsx the max mint quantity to another desired max value...That was the main goal...
 
-## Contents <!-- omit from toc -->
+Summary -- I added:
+1 mint quantity + and - buttons
+2 sounds
+3 sound control - toggle DApp sound on and off button
+4 new mint detector - 2 light bulbs - should blink when you mint and when someone else mints
+5 cool and simple css animations and transitions for some page elements on rendering
+6 css styling
+7 dynamic alerts for the user describing every action on the page user takes, embedded in the page -- not classic browser alerts
+8 dynamic mint price info below mint buttons and in user alerts
+9 more basic logic for better UX
+10 in the future...third mint button for 1 FREE mint per collection with special key -- key will be signature-drop probably or NFT drop
 
-- [✅ Official](#-official)
-- [⭐ Showcase](#-showcase)
-- [📜 Smart Contracts](#-smart-contracts)
-  - [Pre-Built Contracts (Official)](#pre-built-contracts-official)
-  - [Community Contract Releases](#community-contract-releases)
-- [🧰 Tools](#-tools)
-- [📚 Resources](#-resources)
-- [🎓 Tutorials](#-tutorials)
-  - [Blogs](#blogs)
-  - [Videos](#videos)
+all questions: wotify@tokenrolla.com or dm at Twitter @wotify_NFTs
 
-## ✅ Official
+## How to use the repo for your collection/signature-drop
 
-- [Website](https://thirdweb.com)
-- [Twitter](https://twitter.com/thirdweb)
-- [Discord](https://discord.gg/thirdweb)
-- [YouTube](https://youtube.com/@thirdweb_)
-- [GitHub](https://github.com/thirdweb-dev)
 
-## ⭐ Showcase
+If you decide to use this repo, more or less you should follow these steps:
 
-- [The Nutleys](https://opensea.io/collection/the-nutleys) - Community of 9,999 peanuts - hand-drawn and algorithmically roasted on the Ethereum blockchain.
-- [Serious Platypus Verse](https://opensea.io/collection/serious-platypus-verse) - We are supporting environmental advocates through this 105 unique genesis collection of serious platypus.
-- [Bridgette](https://bridgette.one) - One Bridge To Rule Them All. Taking all your favorite bridges and putting them under a cohesive interface that focuses on YOU.
-- [Crypto Dog Society](https://cryptodogsociety.com) - The Crypto Dog Society is a private collection of 7777 unique 3D art pieces design by William Gaspar and Nathan Torelli.
-- [CareerUp Job Website](https://careerdev.vercel.app/)- Careerup is a web3 based job apllication dapp, where user get to list a job, or apply for a specifiic job, while employer can also host video interviews for the selected candidate on the dapp.
-- [Inmate Tate](https://www.inmatetate.com) - A collection of 12,345 inmate tate nfts, convicted to the blockchain for eternity.
-- [Moonapes Yacht Club](https://www.moonapesnft.xyz) - They're a collection of 3,333 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits.
-- _Have a project built on thirdweb? Submit now!_ 🥺
+Enter your signature-drop address at 2 files: index.tsx and generate-mint-signature.ts
+Enter your key-nft edition-drop address in generate-mint-signature.ts
+In app.tsx enter the appropriate chain id: ChainId.your_chain_id  ..chain where your signature-drop is deployed..
 
-## 📜 Smart Contracts
+1 go to repo [here](https://github.com/wotify/sigbature-drop-template-code) 
+2 click on ..Use this template...
+3 Create a new repository
+4 you get your new repo with no commits inside..just the initial commit
+5 clone the new repo on your local pc
+6 cd into the project folder
+7 create a new file named .env.local
+8 enter your private key in .env.local
+8/1 make sure that you have the newest Microsoft Visual Studio installed and also the C++ desktop dev tools pack
+9 install all dependencies with the command: npm install
+10 if there is some errors read and npm install what is missing
+11 make sure that you have the latest version of thirdweb's sdk installed by
+12 running: npm install @thirdweb-dev/sdk @thirdweb-dev/react
+13 for the dev server run: yarn dev
+14 that should be it
+15 sign up at Vercel with GitHub
+16 deploy your new DApp through Vercel..it's easy and you get CI/CD..
 
-### Pre-Built Contracts (Official)
+You can see wotify DApp in action [here](https://sigbature-drop-template-code.vercel.app/)
 
-- [NFT Drop](https://thirdweb.com/thirdweb.eth/DropERC721) - The NFT Drop contract is ideal when you want to release a collection of unique NFTs using the ERC721A Standard.
-- [Edition Drop](https://thirdweb.com/thirdweb.eth/DropERC1155) - The Edition Drop contract is best used when you want to release many NFTs based on the same asset and uses the ERC1155 Standard, also known as "Semi-Fungible Tokens".
-- [Signature Drop](https://thirdweb.com/thirdweb.eth/SignatureDrop) - The Signature Drop contract uses the ERC721A standard to release a collection of unique one-of-one NFTs.
-- [Token Drop](https://thirdweb.com/thirdweb.eth/DropERC20) - The Token Drop contract is a way of releasing your ERC20 tokens for a set price.
-- [NFT Collection](https://thirdweb.com/thirdweb.eth/TokenERC721) - The NFT Collection contract is suitable for when you want to have a collection of unique NFTs, but not "drop" or "release" them for your community to claim.
-- [Edition](https://thirdweb.com/thirdweb.eth/TokenERC1155) - The Edition contract is best used when you want to release many NFTs based on the same asset, but you don't want to "drop" or "release" them for your community to claim.
-- [Token](https://thirdweb.com/thirdweb.eth/TokenERC20) - The Token contract is suited for creating a digital currency and is compliant with the ERC20 standard.
-- [Marketplace](https://thirdweb.com/thirdweb.eth/Marketplace) - A Marketplace is a contract where you can buy and sell NFTs, such as OpenSea or Rarible.
-- [Multiwrap](https://thirdweb.com/thirdweb.eth/Multiwrap) - The Multiwrap contract lets you wrap ERC20, ERC721 and ERC1155 tokens into a new wrapped ERC721 NFT.
-- [Pack](https://thirdweb.com/thirdweb.eth/Pack) - The pack contract lets you bundle ERC20, ERC721 and, ERC1155 tokens together into ERC1155 NFTs that act as randomized loot boxes.
-- [Vote](https://thirdweb.com/thirdweb.eth/VoteERC20) - The Vote contract is designed for groups such as DAOs to vote on proposals.
-- [Airdrop ERC-20](https://thirdweb.com/thirdweb.eth/AirdropERC20) - Airdrop ERC20 tokens or the chain's native token (e.g. ether for Ethereum mainnet) to a list of recipients.
-- [Airdrop ERC-721](https://thirdweb.com/thirdweb.eth/AirdropERC721) - Airdrop ERC721 NFTs to a list of recipients.
-- [Airdrop ERC-1155](https://thirdweb.com/thirdweb.eth/AirdropERC1155) - Airdrop ERC1155 NFTs to a list of recipients.
-- [NFT Stake](https://thirdweb.com/thirdweb.eth/NFTStake) (Beta) - This contract allows users to stake their ERC-721 NFTs and get ERC-20 tokens as staking rewards.
+You can use the standard mint button to test the DApp. Just send some Goerly ETH to your Metamask and switch the network to Goerly...I deployed one test signature-drop collection on Goerly...
 
-### Community Contract Releases
+all good ✌
 
-- [Dynamic Free Mint](https://thirdweb.com/nach.eth/DynamicFreeMint) - With this contract, you can limit how many NFTs each wallet can claim for free.
-- [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contracts lets you create recurring subscriptions, tickets, certifications.
-- [Rental NFTs](https://thirdweb.com/doubledev.eth/ERC4907) - ERC-4907 facilitates the efficient implementation of rentable NFTs.
-- [ERC-721 Community Stream](https://thirdweb.com/flairsdk.eth/ERC721CommunityStream) - Allows you to create a token stream to equally distribute any tokens (Native, ERC20, etc) to holders of a specific ERC721 NFT collection.
-- [Job Application](https://thirdweb.com/0x013166D598AB78A8ddf8C1bF34Ff9bC7C50D36D2/CareerBuild) - job application smart contract allow users to list ajob, apply for a job.
-- _Have a community contract release? Submit now!_
+Below,  you can find the original thirdweb's repo description for more details...
 
-## 🧰 Tools
 
-- [The thirdweb Art Engine](https://github.com/warengonzaga/thirdweb-art-engine) - The forked version of HashLips Art Engine with better features and compatibility with thirdweb.
-- [Hashlips Art Engine](https://github.com/HashLips/hashlips_art_engine) - Create generative art by using the canvas api and node js.
-- [IPFS Support Extension](https://github.com/warengonzaga/ipfs-support-extension) - Adding standalone IPFS native URL support for chromium based browsers without installing IPFS in your machine.
-- _Have a community tool for thirdweb? Submit now!_
 
-## 📚 Resources
+# Signature Drop
 
-- [TW Demo Asssets](https://github.com/saminacodes/tw-demo-assets) - Different assets use for demo projects at thirdweb.
-- [NFT Dummy Assets](https://github.com/warengonzaga/nft-dummy-assets) - Making test NFT deploment easier by providing dummy NFT arts with metadata. 100% compatible with thirdweb platform.
-- _Have a community resources for thirdweb? Submit now!_
+This example shows how you can use the [Signature Drop Pre-Built Contract](https://portal.thirdweb.com/pre-built-contracts/signature-drop) to
+utilize both the [claim](https://portal.thirdweb.com/pre-built-contracts/signature-drop#minting--claiming-nfts) function to claim NFTs under the criteria
+of a claim condition, as well as the [Signature-based minting](https://portal.thirdweb.com/advanced-features/on-demand-minting) feature to
+offer free NFT mints to specific users simultaneously.
 
-## 🎓 Tutorials
+![demo](demo.png)
 
-### Blogs
+We allow users who hold one of our [Early Access NFTs](https://opensea.io/collection/thirdweb-community) to mint the NFT for free, by generating a mint signature from the admin wallet on the server-side. Whereas users who _don't_ hold one of the NFTs do not qualify for the mint signature, but can still mint an NFT from the drop using the regular claim.
 
-- Build an RPG game on Solana. [[Link](https://metamake.hashnode.dev/build-an-rpg-game-on-solana#heading-generate-the-pngs)]
-- How to use RainbowKit with Thirdweb. [[Link](https://blog.avneesh.tech/how-to-use-rainbowkit-with-thirdweb)]
-- _Have a community tutorial blog for thirdweb? Submit now!_
+## Tools
 
-### Videos
+- [Signature Drop](https://portal.thirdweb.com/pre-built-contracts/signature-drop) to lazy mint NFTs for other wallets to claim.
+- [React SDK](https://portal.thirdweb.com/react) to connect to user's wallets and interact with the smart contract.
 
-- HashLips playlist for thirdweb. [[Link](https://www.youtube.com/watch?v=OlavWoKV1Mk&list=PLvfQp12V0hS3tHI5-4olIYqH6LM8YWL63)]
-- Creating a gasless NFT Drop. [[Link](https://www.youtube.com/watch?v=FQKnUdxKLg4)]
-- Create token gated website using existing token. [[Link](https://www.youtube.com/watch?v=gFy7VuLq8II)]
-- How to create an NFT collection. [[Link](https://www.youtube.com/watch?v=DSffICxyj3A)]
-- How to create an ERC 20 token + mint NFT with custom ERC-20. [[Link](https://www.youtube.com/watch?v=FoIp1KSyh_w)]
-- _Have a community video tutorial for thirdweb? Submit now!_
+## Create Your Own
 
----
+You can create a project using this example with the [thirdweb CLI](https://portal.thirdweb.com/thirdweb-cli) by running the below command:
 
-💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [He is Awesome](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
+```bash
+npx thirdweb create --template signature-drop
+```
+
+Export your wallet's private key and add it to an `.env.local` file in your project directory.
+
+```bash
+PRIVATE_KEY=your-private-key
+```
+
+## Guide
+
+Let's explore the key areas of the application and how the code works.
+
+### Connecting to user's wallets and our contract
+
+We wrap our application in the `ThirdwebProvider` component in the [\_app.tsx](./pages/_app.tsx) file.
+
+```jsx
+// This is the chainId your dApp will work on.
+const activeChainId = ChainId.Goerli;
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <ThirdwebProvider desiredChainId={activeChainId}>
+      <Component {...pageProps} />
+      <ThirdwebGuideFooter />
+    </ThirdwebProvider>
+  );
+}
+```
+
+Now we can utilize all of the functionality of the [React SDK](https://portal.thirdweb.com/react) to connect to the user's wallets and their network on the [index.tsx](./pages/index.tsx) file.
+
+```jsx
+const address = useAddress();
+const connectWithMetamask = useMetamask();
+const isMismatch = useNetworkMismatch();
+const [, switchNetwork] = useNetwork();
+```
+
+We then connect to our signature drop contract by using its contract address:
+
+```jsx
+const signatureDrop = useSignatureDrop(
+  "0xb90a18e9270d44F6e7D06e5Eac32C6Ea881CCaB2"
+);
+```
+
+### Claiming NFTs
+
+To claim NFTs the typical way, we use the `claimTo` function:
+
+```jsx
+const tx = await signatureDrop?.claimTo(address, 1);
+```
+
+### Signature-Based Minting NFTs
+
+Signature-based minting is a three-step process:
+
+1. The user requests a mint signature.
+2. Admin wallet (on the server) approves (or denies) the claim request of the user based on any criteria the admin chooses and sends back a mint signature when they approve.
+3. The user uses the mint signature to claim NFTs from the signature drop.
+
+Firstly, we request a mint signature from the API:
+
+```jsx
+const signedPayloadReq = await fetch(`/api/generate-mint-signature`, {
+  method: "POST",
+  body: JSON.stringify({
+    address: address,
+  }),
+});
+```
+
+Then, on the server-side API route, we make a check to see if the user qualifies for the mint signature by checking to see if they own any early access NFTs:
+
+```jsx
+// De-construct body from request
+const { address } = JSON.parse(req.body);
+
+// Get the Early Access NFT Edition Drop contract
+const polygonSDK = new ThirdwebSDK("polygon");
+const earlyAccessNfts = polygonSDK.getEditionDrop(
+  "0xa9e893cc12026a2f6bd826fdb295eac9c18a7e88"
+);
+
+// Check to see if the wallet address has an early access NFT
+const numTokensInCollection = await earlyAccessNfts.getTotalCount();
+let userHasToken = false;
+// Check each token in the Edition Drop
+for (let i = 0; i < numTokensInCollection.toNumber(); i++) {
+  // See if they have the token
+  const balance = await earlyAccessNfts.balanceOf(address, i);
+  if (balance.toNumber() > 0) {
+    userHasToken = true;
+    break;
+  }
+}
+```
+
+If they do, we generate a mint signature from the admin wallet on the server-side:
+
+```jsx
+  // Now use the SDK on Goerli to get the signature drop
+  const goerliSDK = ThirdwebSDK.fromPrivateKey(
+    process.env.PRIVATE_KEY as string,
+    "goerli"
+  );
+  const signatureDrop = goerliSDK.getSignatureDrop(
+    "0xb90a18e9270d44F6e7D06e5Eac32C6Ea881CCaB2"
+  );
+
+  // If the user has an early access NFT, generate a mint signature
+  if (userHasToken) {
+    const mintSignature = await signatureDrop.signature.generate({
+      to: address, // Can only be minted by the address we checked earlier
+      price: "0", // Free!
+      mintStartTime: new Date(0), // now
+    });
+
+    res.status(200).json(mintSignature);
+  } else {
+    res.status(400).json({
+      message: "User does not have an early access NFT",
+    });
+  }
+```
+
+When this is done, we handle it on the client-side, by showing an error alert if they didn't qualify, or continuing to use this mint signature to claim an NFT if they did:
+
+```jsx
+if (signedPayloadReq.status === 400) {
+  alert(
+    "Looks like you don't own an early access NFT :( You don't qualify for the free mint"
+  );
+  return;
+} else {
+  try {
+    const signedPayload =
+      (await signedPayloadReq.json()) as SignedPayload721WithQuantitySignature;
+
+    const nft = await signatureDrop?.signature.mint(signedPayload);
+
+    alert(`Succesfully minted NFT!`);
+  } catch (error: any) {
+    alert(error?.message);
+  }
+}
+```
+
+## Join our Discord!
+
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
