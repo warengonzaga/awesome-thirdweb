@@ -38,6 +38,7 @@
 - [CareerUp Job Website](https://careerdev.vercel.app/)- Careerup is a web3 based job apllication dapp, where user get to list a job, or apply for a specifiic job, while employer can also host video interviews for the selected candidate on the dapp.
 - [Inmate Tate](https://www.inmatetate.com) - A collection of 12,345 inmate tate nfts, convicted to the blockchain for eternity.
 - [Moonapes Yacht Club](https://www.moonapesnft.xyz) - They're a collection of 3,333 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits.
+- [Ethenials](http://ethenials.com) - 5,000 unique full-body pixel beings perfectly contained within an 81 by 81 pixel canvas, featuring 4 skin tones, 2 genders and 5 species to choose from.
 - _Have a project built on thirdweb? Submit now!_ 🥺
 
 ## 📜 Smart Contracts
