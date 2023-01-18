@@ -35,7 +35,7 @@
 - [Serious Platypus Verse](https://opensea.io/collection/serious-platypus-verse) - We are supporting environmental advocates through this 105 unique genesis collection of serious platypus.
 - [Bridgette](https://bridgette.one) - One Bridge To Rule Them All. Taking all your favorite bridges and putting them under a cohesive interface that focuses on YOU.
 - [Crypto Dog Society](https://cryptodogsociety.com) - The Crypto Dog Society is a private collection of 7777 unique 3D art pieces design by William Gaspar and Nathan Torelli.
-- [CareerUp Job Website](https://careerdev.vercel.app/)- Careerup is a web3 based job apllication dapp, where user get to list a job, or apply for a specifiic job, while employer can also host video interviews for the selected candidate on the dapp.
+- [CareerUp Job Website](https://careerdev.vercel.app/)- Careerup is a web3 based job application dapp, where user get to list a job, or apply for a specific job, while employer can also host video interviews for the selected candidate on the dapp.
 - [Inmate Tate](https://www.inmatetate.com) - A collection of 12,345 inmate tate nfts, convicted to the blockchain for eternity.
 - [Moonapes Yacht Club](https://www.moonapesnft.xyz) - They're a collection of 3,333 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits.
 - [Wotify Collection](https://sigbature-drop-template-code.vercel.app) - Created by Wotify NFTs, Wotify is a collection of 30k png NFTs living on the Ethereum blockchain, and is inspired by a famous MMO strategy game.
@@ -65,10 +65,10 @@
 ### Community Contract Releases
 
 - [Dynamic Free Mint](https://thirdweb.com/nach.eth/DynamicFreeMint) - With this contract, you can limit how many NFTs each wallet can claim for free.
-- [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contracts lets you create recurring subscriptions, tickets, certifications.
+- [The Public Lock Contract](https://thirdweb.com/unlock-protocol.eth/PublicLock) - The Public Lock Contract is a membership contract from Unlock Protocol. This contract lets you create recurring subscriptions, tickets, certifications.
 - [Rental NFTs](https://thirdweb.com/doubledev.eth/ERC4907) - ERC-4907 facilitates the efficient implementation of rentable NFTs.
 - [ERC-721 Community Stream](https://thirdweb.com/flairsdk.eth/ERC721CommunityStream) - Allows you to create a token stream to equally distribute any tokens (Native, ERC20, etc) to holders of a specific ERC721 NFT collection.
-- [Job Application](https://thirdweb.com/0x013166D598AB78A8ddf8C1bF34Ff9bC7C50D36D2/CareerBuild) - job application smart contract allow users to list ajob, apply for a job.
+- [Job Application](https://thirdweb.com/0x013166D598AB78A8ddf8C1bF34Ff9bC7C50D36D2/CareerBuild) - job application smart contract allow users to list a job, apply for a job.
 - _Have a community contract release? Submit now!_
 
 ## 🧰 Tools
@@ -81,7 +81,7 @@
 ## 📚 Resources
 
 - [TW Demo Asssets](https://github.com/saminacodes/tw-demo-assets) - Different assets use for demo projects at thirdweb.
-- [NFT Dummy Assets](https://github.com/warengonzaga/nft-dummy-assets) - Making test NFT deploment easier by providing dummy NFT arts with metadata. 100% compatible with thirdweb platform.
+- [NFT Dummy Assets](https://github.com/warengonzaga/nft-dummy-assets) - Making test NFT deployment easier by providing dummy NFT arts with metadata. 100% compatible with thirdweb platform.
 - _Have a community resources for thirdweb? Submit now!_
 
 ## 🎓 Tutorials
