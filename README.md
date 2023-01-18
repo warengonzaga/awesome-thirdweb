@@ -101,6 +101,12 @@
 - How to create an ERC 20 token + mint NFT with custom ERC-20. [[Link](https://www.youtube.com/watch?v=FoIp1KSyh_w)]
 - _Have a community video tutorial for thirdweb? Submit now!_
 
+## 📝 Author <!-- omit from toc -->
+
+This Awesome list for thirdweb is created and maintained by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/awesome-thirdweb/graphs/contributors).
+
+[![contributors](https://contrib.rocks/image?repo=warengonzaga/awesome-thirdweb)](https://github.com/warengonzaga/awesome-thirdweb/graphs/contributors)
+
 ---
 
 💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [He is Awesome](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
