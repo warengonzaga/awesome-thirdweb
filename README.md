@@ -40,6 +40,7 @@
 - [Moonapes Yacht Club](https://www.moonapesnft.xyz) - They're a collection of 3,333 utility-enabled PFPs that feature a richly diverse and unique pool of rarity-powered traits.
 - [Wotify Collection](https://sigbature-drop-template-code.vercel.app) - Created by Wotify NFTs, Wotify is a collection of 30k png NFTs living on the Ethereum blockchain, and is inspired by a famous MMO strategy game.
 - [Ethenials](http://ethenials.com) - 5,000 unique full-body pixel beings perfectly contained within an 81 by 81 pixel canvas, featuring 4 skin tones, 2 genders and 5 species to choose from.
+- [Hangman Clash](https://hangmanclash.com/select?utm_campaign=thirdweb) - Competitive, PVP Hangman. Play for free or stomp your friends and take their USDC.
 - _Have a project built on thirdweb? Submit now!_ 🥺
 
 ## 📜 Smart Contracts
