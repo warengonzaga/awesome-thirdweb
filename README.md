@@ -111,3 +111,5 @@ This Awesome list for thirdweb is created and maintained by **[Waren Gonzaga](ht
 ---
 
 💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [He is Awesome](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
+
+- [NoCodeVista](https://nocodevista.com/) - No-code website builder for creating professional websites visually â€” no coding needed.
